@@ -12,6 +12,7 @@ API_KEY = '9e92e087c4f6a85b7d2250ef59f490de'
 
 conn = sqlite3.connect('SJreader.db')
 
+# choose date list to add to the database
 #date_list = [20160808, 20160809, 20160810, 20160811, 20160812, 20160813, 20160814, 20160815]
 date_list = [20160801, 20160802, 20160803, 20160804, 20160805, 20160806, 20160807]
 
