@@ -8,7 +8,7 @@ from urllib2 import urlopen
 import sqlite3
 
 SEARCH_URL = 'http://api.elsevier.com/content/search/scidir?'
-API_KEY = '9e92e087c4f6a85b7d2250ef59f490de'
+API_KEY = <insert your API key here>
 
 conn = sqlite3.connect('SJreader.db')
 
